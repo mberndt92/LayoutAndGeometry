@@ -11,6 +11,14 @@
 		8A8AEBBE2A05C35B001FAAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBBD2A05C35B001FAAB6 /* ContentView.swift */; };
 		8A8AEBC02A05C35C001FAAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8AEBBF2A05C35C001FAAB6 /* Assets.xcassets */; };
 		8A8AEBC32A05C35C001FAAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8AEBC22A05C35C001FAAB6 /* Preview Assets.xcassets */; };
+		8A8AEBCA2A05CD1E001FAAB6 /* VerticalAlignment+MidAccountAndName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBC92A05CD1E001FAAB6 /* VerticalAlignment+MidAccountAndName.swift */; };
+		8A8AEBE52A073C76001FAAB6 /* SpinningHelixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBE42A073C76001FAAB6 /* SpinningHelixView.swift */; };
+		8A8AEBE72A073F29001FAAB6 /* OldSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBE62A073F29001FAAB6 /* OldSchoolView.swift */; };
+		8A8AEBE92A086C68001FAAB6 /* CustomAlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBE82A086C68001FAAB6 /* CustomAlignmentGuideView.swift */; };
+		8A8AEBEB2A086C9F001FAAB6 /* TearEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBEA2A086C9F001FAAB6 /* TearEffectView.swift */; };
+		8A8AEBED2A086CE3001FAAB6 /* FrameAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBEC2A086CE3001FAAB6 /* FrameAlignmentView.swift */; };
+		8A8AEBEF2A086CEB001FAAB6 /* HStackAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBEE2A086CEB001FAAB6 /* HStackAlignmentView.swift */; };
+		8A8AEBF12A086D09001FAAB6 /* AlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8AEBF02A086D09001FAAB6 /* AlignmentGuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		8A8AEBBD2A05C35B001FAAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A8AEBBF2A05C35C001FAAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A8AEBC22A05C35C001FAAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A8AEBC92A05CD1E001FAAB6 /* VerticalAlignment+MidAccountAndName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerticalAlignment+MidAccountAndName.swift"; sourceTree = "<group>"; };
+		8A8AEBE42A073C76001FAAB6 /* SpinningHelixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningHelixView.swift; sourceTree = "<group>"; };
+		8A8AEBE62A073F29001FAAB6 /* OldSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldSchoolView.swift; sourceTree = "<group>"; };
+		8A8AEBE82A086C68001FAAB6 /* CustomAlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideView.swift; sourceTree = "<group>"; };
+		8A8AEBEA2A086C9F001FAAB6 /* TearEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TearEffectView.swift; sourceTree = "<group>"; };
+		8A8AEBEC2A086CE3001FAAB6 /* FrameAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignmentView.swift; sourceTree = "<group>"; };
+		8A8AEBEE2A086CEB001FAAB6 /* HStackAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackAlignmentView.swift; sourceTree = "<group>"; };
+		8A8AEBF02A086D09001FAAB6 /* AlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				8A8AEBBB2A05C35B001FAAB6 /* LayoutAndGeometryApp.swift */,
 				8A8AEBBD2A05C35B001FAAB6 /* ContentView.swift */,
+				8A8AEBF02A086D09001FAAB6 /* AlignmentGuideView.swift */,
+				8A8AEBEC2A086CE3001FAAB6 /* FrameAlignmentView.swift */,
+				8A8AEBEE2A086CEB001FAAB6 /* HStackAlignmentView.swift */,
+				8A8AEBEA2A086C9F001FAAB6 /* TearEffectView.swift */,
+				8A8AEBE82A086C68001FAAB6 /* CustomAlignmentGuideView.swift */,
+				8A8AEBE42A073C76001FAAB6 /* SpinningHelixView.swift */,
+				8A8AEBE62A073F29001FAAB6 /* OldSchoolView.swift */,
+				8A8AEBC92A05CD1E001FAAB6 /* VerticalAlignment+MidAccountAndName.swift */,
 				8A8AEBBF2A05C35C001FAAB6 /* Assets.xcassets */,
 				8A8AEBC12A05C35C001FAAB6 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8AEBED2A086CE3001FAAB6 /* FrameAlignmentView.swift in Sources */,
 				8A8AEBBE2A05C35B001FAAB6 /* ContentView.swift in Sources */,
+				8A8AEBE92A086C68001FAAB6 /* CustomAlignmentGuideView.swift in Sources */,
+				8A8AEBEF2A086CEB001FAAB6 /* HStackAlignmentView.swift in Sources */,
+				8A8AEBEB2A086C9F001FAAB6 /* TearEffectView.swift in Sources */,
+				8A8AEBE72A073F29001FAAB6 /* OldSchoolView.swift in Sources */,
+				8A8AEBE52A073C76001FAAB6 /* SpinningHelixView.swift in Sources */,
 				8A8AEBBC2A05C35B001FAAB6 /* LayoutAndGeometryApp.swift in Sources */,
+				8A8AEBCA2A05CD1E001FAAB6 /* VerticalAlignment+MidAccountAndName.swift in Sources */,
+				8A8AEBF12A086D09001FAAB6 /* AlignmentGuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
