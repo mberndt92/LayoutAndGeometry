@@ -34,9 +34,11 @@ struct ContentView: View {
 
         let fullHeight = fullView.size.height
         
+        
         let hue: Double = ((1.0 / fullHeight) * abs(fullHeight - currentY))
 
-        return Color(hue: hue, saturation: 1, brightness: 1)
+        // adding the min modifier for safety however it shouldn't be possible due to my formulae whereas I assign every part of the screens height to a hue directly
+        return Color(hue: min(hue, 1.0), saturation: 1, brightness: 1)
     }
     
     private func scaleEffectMultiplier(geo: GeometryProxy, fullView: GeometryProxy) -> Double {
